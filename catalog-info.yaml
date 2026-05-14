@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: devex-cli
+  title: DevEx CLI Tool
+  description: Ferramenta de linha de comando padrão instalada nas máquinas dos desenvolvedores.
+  tags: [go, cli, tool]
+  annotations:
+    github.com/project-slug: myorg/devex-cli
+spec:
+  type: library
+  lifecycle: production
+  owner: group:squad-devex
+  system: devex-platform
